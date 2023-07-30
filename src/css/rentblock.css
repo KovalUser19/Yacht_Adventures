@@ -93,7 +93,7 @@ textarea.rentblock-input {
   fill: var(--white, #F6F5EF);
 }
 
-/* .ellips {
+ .ellips {
   position: absolute;
   bottom: -25px;
   right: -105px;
@@ -105,7 +105,7 @@ textarea.rentblock-input {
   opacity: 0.6000000238418579;
   background: #91AFBA;
   filter: blur(100px);
-} */
+}
 
 
 @media only screen and (min-width: 768px) {
