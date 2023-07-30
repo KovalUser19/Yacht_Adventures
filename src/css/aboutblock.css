@@ -1,0 +1,50 @@
+.about-block-titel {
+  max-width: 335px;
+  color: var(--white, #f6f5ef);
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -1.08px;
+
+  margin-bottom: 40px;
+}
+
+.about-block-adventures {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: -1.08px;
+
+  background: var(
+    --linear-green,
+    linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-block-list {
+  display: flex;
+  gap: 14px;
+}
+.about-block-text {
+  max-width: 161px;
+  color: var(--white, #f6f5ef);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: -0.28px;
+
+  margin-bottom: 40px;
+}
+
+.about-block-img:not(:last-child) {
+  margin: 0 auto 24px auto;
+}

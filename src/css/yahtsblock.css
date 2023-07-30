@@ -1,0 +1,357 @@
+body {
+  color: var(--white);
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin: 0;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+td,
+tr {
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.yacht-block {
+  padding-bottom: 80px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .yacht-block {
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .yacht-block {
+    padding-bottom: 164px;
+  }
+}
+
+.hd-yacht {
+  max-width: 882px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -1.62px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hd-yacht {
+    font-size: 70px;
+    letter-spacing: -3.15px;
+    margin-bottom: 64px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hd-yacht {
+    font-size: 100px;
+    line-height: 110%;
+    letter-spacing: -4.5px;
+  }
+}
+
+.rent-yacht {
+  display: block;
+  width: 131px;
+  height: 43px;
+  padding: 14px 28px;
+  align-items: flex-start;
+  border-radius: 60px;
+  border: 1px solid var(--white);
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -0.63px;
+  margin-bottom: 80px;
+}
+
+.rent-yacht:hover,
+.rent-yacht:focus {
+  color: var(--light-green);
+  border-color: var(--light-green);
+}
+
+@media only screen and (min-width: 768px) {
+  .rent-yacht {
+    width: 153px;
+    height: 48px;
+    font-size: 18px;
+    letter-spacing: -0.81px;
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .rent-yacht {
+    margin-bottom: 164px;
+  }
+}
+
+.swiper {
+  width: 335px;
+  height: 529px;
+}
+
+@media only screen and (min-width: 768px) {
+  .swiper {
+    width: 704px;
+    height: 576px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .swiper {
+    width: 1098px;
+    position: relative;
+  }
+}
+
+.swiper-slide {
+  background-color: var(--blue_2);
+  width: 335px;
+  padding: 18px 18px 24px 18px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+  height: 469px;
+}
+
+@media only screen and (min-width: 768px) {
+  .swiper-slide {
+    width: 344px;
+    padding: 16px 16px 32px 16px;
+    height: 508px;
+    gap: 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .swiper-slide {
+    width: 354px;
+  }
+}
+
+.swiper-slide img {
+  border-radius: 24px;
+  overflow: hidden;
+  width: 299px;
+}
+
+@media only screen and (min-width: 768px) {
+  .swiper-slide img {
+    width: 312px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .swiper-slide img {
+    width: 322px;
+  }
+}
+
+.yacht-info {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+  .yacht-info {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+.yacht-name {
+  width: 177px;
+  height: 19px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+
+.swiper-slide p {
+  opacity: 0.5;
+  font-size: 12px;
+  line-height: 118%;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+}
+
+.yacht-propeties {
+  display: flex;
+  font-size: 14px;
+  line-height: 118%;
+  letter-spacing: 0.42px;
+}
+
+.yacht-propeties td:first-child {
+  text-transform: uppercase;
+  padding-right: 32px;
+  padding-left: 6px;
+}
+
+@media only screen and (min-width: 768px) {
+  .yacht-propeties td:first-child {
+    padding-left: 8px;
+  }
+}
+
+.yacht-propeties td {
+  padding-bottom: 8px;
+}
+
+.yacht-propeties tr:last-child td {
+  padding-bottom: 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  border-radius: 60px;
+  border: 1px solid var(--white);
+  display: inline-flex;
+  padding: 14px 14px;
+  width: 46px;
+  height: 36px;
+  color: var(--white);
+}
+
+@media only screen and (min-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 50px;
+    height: 36px;
+    padding: 14px 16px;
+  }
+}
+
+.swiper-button-next:hover,
+.swiper-button-next:focus,
+.swiper-button-prev:hover,
+.swiper-button-prev:focus {
+  border-color: var(--light-green);
+  color: var(--light-green);
+}
+
+.arrow-icon {
+  fill: var(--white);
+}
+
+.swiper-button-next:hover .arrow-icon,
+.swiper-button-next:focus .arrow-icon,
+.swiper-button-prev:hover .arrow-icon,
+.swiper-button-prev:focus .arrow-icon {
+  fill: var(--light-green);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  content: none;
+}
+
+@media only screen and (max-width: 1279.98px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: var(--swiper-navigation-top-offset, 100%);
+    margin-top: calc(0px - (var(--swiper-navigation-size)));
+  }
+
+  .swiper-button-next {
+    right: var(--swiper-navigation-sides-offset, 41%);
+  }
+
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 41%);
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .swiper-button-next {
+    right: var(--swiper-navigation-sides-offset, 33%);
+  }
+
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 33%);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .swiper-button-next {
+    transform: translateX(-40%);
+  }
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 60px;
+  right: 32px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: var(--light-green);
+  width: 44px;
+  height: 44px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+  #myBtn {
+    bottom: 328px;
+    width: 68px;
+    height: 68px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #myBtn {
+    bottom: 328px;
+  }
+}
+
+.icom-arrow-up {
+  width: 8px;
+  height: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+  .icom-arrow-up {
+    width: 16px;
+    height: 30px;
+  }
+}
+
+#myBtn:hover {
+  background-color: #88b3b9;
+}

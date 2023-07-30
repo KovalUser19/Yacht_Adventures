@@ -28,7 +28,7 @@ p {
 
 /* footer */
 
-.footer {
+.footer-block {
   background-color: var(--bgcolor);
   margin: 0 auto;
   padding: 40px 20px 14px 20px;
@@ -38,17 +38,17 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
+  .footer-block {
     padding: 50px 32px 16px 32px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .footer {
+  .footer-block {
     padding: 82px 32px 16px 32px;
   }
 }
 
-.footer .container {
+.footer-block .container {
   position: relative;
 
   /* outline-offset: 1px;
@@ -63,13 +63,13 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-  .footer .container {
+  .footer-block .container {
     min-width: 704px;
     padding-top: 64px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .footer .container {
+  .footer-block .container {
     max-width: 1216px;
     padding-top: 64px;
   }
@@ -78,7 +78,7 @@ p {
 @media screen and (min-width: 768px) {
   .footer-cont {
     display: flex;
-    gap: 60px 120px;
+    /*     gap: 60px 120px; */
     flex-wrap: wrap;
     flex-shrink: no-shrink;
     justify-content: space-between;
@@ -88,11 +88,13 @@ p {
 @media screen and (min-width: 1280px) {
   .footer-cont {
     display: flex;
-    gap: 90px 315px;
+    /*     gap: 90px 315px; */
     justify-content: space-between;
   }
 }
 .logoicon {
+  width: 18px;
+  height: 18px;
 }
 @media screen and (min-width: 768px) {
   .logoicon {

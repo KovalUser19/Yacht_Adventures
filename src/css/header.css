@@ -87,12 +87,12 @@
   align-items: center;
   justify-content: center;
 
-  padding: 0;
   background-color: transparent;
   border: none;
   outline: none;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
+  padding: 24px 0;
 }
 
 @media (min-width: 768px) {
@@ -105,6 +105,10 @@
   fill: var(--white);
 }
 
+.mobile-close-icon {
+  stroke: var(--white);
+}
+
 .menu-container {
   position: fixed;
   top: 0;
@@ -113,9 +117,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 136px 20px 20px;
-  background-color: #1e1823;
-  z-index: 999;
+  background-color: var(--dark_blue);
 
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
@@ -125,27 +127,64 @@
   transform: translateX(0);
 }
 
-.menu-container .menu-toggle {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  color: var(--main-light-cl);
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(246, 245, 239, 0.2);
+  padding: 0 20px;
 }
 
 .mobile-menu {
   width: fit-content;
   margin: 0 auto;
   margin-bottom: auto;
+  padding-top: 140px;
 }
 .mobile-menu-item:not(:last-child) {
-  margin-bottom: 24px;
+  margin-bottom: 14px;
 }
+
 .mobile-menu-link {
-  color: #fff;
-  font-family: Montserrat;
+  text-transform: uppercase;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 16px;
+  font-weight: 700;
+  line-height: 1.14;
   letter-spacing: -0.28px;
+  color: var(--white);
+}
+
+/**
+  |============================
+  | Decorate mobile menu
+  |============================
+*/
+
+.light-first {
+  width: 279px;
+  height: 279px;
+  transform: rotate(-44.916deg);
+
+  border-radius: 279px;
+  opacity: 0.89;
+  background: #939cac;
+  filter: blur(100px);
+
+  position: absolute;
+  top: 83%;
+  left: 35%;
+}
+
+.light-second {
+  width: 279px;
+  height: 279px;
+  transform: rotate(-44.916deg);
+
+  border-radius: 279px;
+  opacity: 0.6;
+  background: #91afba;
+  filter: blur(100px);
+
+  position: absolute;
+  top: 65%;
+  left: -35%;
 }

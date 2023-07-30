@@ -13,40 +13,31 @@
         width="259"
         height="187"
       />
+      <img class="rentblock-img" srcset="./imag/yaht.png 1x, ./imag/yacht@2x.png 2x" src="./imag/yaht.png" alt="yacht"
+        width="259" height="187" />
+
     </div>
     <form class="rentblock-form" autocomplete="off">
-      <label class="rentblock-label"
-        >Full Name
+      <label class="rentblock-label">Full Name
         <input class="rentblock-input" type="text" name="fullname" pattern="" />
       </label>
 
-      <label class="rentblock-label"
-        >Email
-        <input
-          class="rentblock-input"
-          type="email"
-          name="email"
-          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-        />
+      <label class="rentblock-label">Email
+        <input class="rentblock-input" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
       </label>
-      <label class="rentblock-label"
-        >Phone number
-        <input
-          class="rentblock-input"
-          type="tel"
-          name="phone"
-          pattern="2-[0-9]{3}-[0-9]{3}"
-        />
+      <label class="rentblock-label">Phone number
+        <input class="rentblock-input" type="tel" name="phone" pattern="2-[0-9]{3}-[0-9]{3}" />
       </label>
-      <label class="rentblock-label"
-        >Comment
+      <label class="rentblock-label">Comment
         <textarea class="rentblock-input" name="comment"></textarea>
       </label>
 
       <button class="rentblock-button" type="submit" data-modal-open>
         Send
         <svg class="rentblock-icon" width="18" height="8.7">
+
           <use href="./img/rentblock/icons.svg#icon-Arrow"></use>
+          <use href="./imag/icons.svg#icon-Arrow"></use>
         </svg>
       </button>
     </form>
